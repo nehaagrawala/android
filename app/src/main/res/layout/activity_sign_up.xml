@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sign_up"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+
+    tools:context="com.example.eshitanarayan.learnandgrow.SignUp"
+    android:background="@drawable/background_color">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registration!!!"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textStyle="normal|bold|italic"
+            android:typeface="serif"
+            android:textColor="@color/colorPrimaryDark"/>
+       <android.support.design.widget.TextInputLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/nameUI"
+           >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Name"
+            android:id="@+id/namEd"
+            android:typeface="serif"
+            android:textColor="@color/colorAccent"
+            />
+       </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/emailUI"
+            >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Email"
+            android:id="@+id/emailEd"
+            android:typeface="serif"
+            android:textColor="@color/colorAccent"
+            />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/passUI"
+            >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            android:id="@+id/passEd"
+            android:inputType="textPassword"
+            android:typeface="serif"
+            android:textColor="@color/colorAccent"
+            />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:typeface="serif"
+            android:id="@+id/cnfpassEd"
+            android:textColor="@color/colorAccent"
+            />
+        </android.support.design.widget.TextInputLayout>
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Register"
+           android:textColor="@color/colorPrimaryDark"
+           android:layout_marginTop="10dp"
+           android:id="@+id/registerbutton"
+           android:typeface="monospace"
+           android:textSize="20sp"
+           android:textStyle="italic"
+           android:background="@drawable/button"/>
+    </LinearLayout>
+
+

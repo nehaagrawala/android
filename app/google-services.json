@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "284067894591",
+    "project_id": "firebase-learn-and-grow"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284067894591:android:19f44f28ec3bb0c6",
+        "android_client_info": {
+          "package_name": "com.example.eshitanarayan.learnandgrow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "284067894591-rrfqo1r22dfo64k2in4j5pd0qut02vs9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eshitanarayan.learnandgrow",
+            "certificate_hash": "C29CFEFAE167FF86E54A00D327D5EE18A6DBED04"
+          }
+        },
+        {
+          "client_id": "284067894591-6ba5p63vatubhfjdg58vs04ruf4lnnde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGpJ2MY8A5GIk7AEWzHmGdenrPx8lhsAs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
